@@ -1,0 +1,45 @@
+body{
+    background-color: #b0daff;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 54px;
+}
+
+.brand {
+    font-weight: 600;
+}
+
+/* Content */
+
+.album {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    padding-bottom: 5%;
+    padding-top: 2%;
+}
+
+
+
+.big{
+    object-fit: cover;
+}
+
+/* Footer */
+
+.fixed-bottom{
+    text-align: right;   
+    padding-bottom: 2%;
+    padding-top: 5%;
+}
+
+.foot-link{
+    text-decoration: none;
+    margin: 2%;
+}

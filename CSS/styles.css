@@ -1,0 +1,68 @@
+body{
+    background-color: #FEFF86;
+    font-family: 'Raleway', sans-serif;
+    text-align: right;
+}
+
+h1, h3 {
+    font-family: 'VT323', monospace;
+}
+
+h1 {
+    font-size: 54px;
+}
+
+h3 {
+    font-size: 36px;
+}
+
+.brand {
+    font-weight: 600;
+}
+
+/* Main Section */
+
+.intro {
+    padding-top: 20%;
+    padding-right: 5%;
+}
+
+#wally{
+    position: fixed;
+    bottom: 20%;
+    left: 7%;
+    height: 60%;
+    border-radius: 45%;
+    border-color: #DAF5FF;
+    border-width: 5px;
+    border-style: dashed;
+    background-color: #DAF5FF;
+}
+
+/* Footer */
+
+.fixed-bottom{
+    text-align: right;   
+    padding-bottom: 2%;
+}
+
+.foot-link{
+    text-decoration: none;
+    margin: 2%;
+}
+
+/* Responsiveness */
+
+@media  screen and (max-width: 910px)
+{
+    #wally {
+       display:none;
+    }
+}
+
+@media screen and (max-width: 1040px){
+    #wally {
+        height: 40%;
+        bottom: 30%;
+    }
+}

@@ -1,0 +1,35 @@
+body{
+    background-color: #FEFF86;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 5%;
+    font-family: 'Annie Use Your Telescope', cursive;
+    font-size: 54px;
+  }
+
+.brand {
+    font-weight: 600;
+}
+
+/* Content */
+
+.form {
+    display: block;
+    background: none;
+    margin: 5% auto;
+    height: 75vh;
+}
+
+
+/* Footer */
+.fixed-bottom{
+    text-align: right;   
+    padding-bottom: 2%;
+}
+
+.foot-link{
+    text-decoration: none;
+    margin: 2%;
+}
